@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-primary ">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">
+                <i class="bi bi-emoji-wink"></i> Hello
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="index.html">Iniciar sesión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="registro.html">Registrarse</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+
+
+    <h1 class="bold text-center my-5">Registrarse</h1>
+    <div class="container">
+        <div class="row my-5 d-flex justify-content-center">
+            <div class="col-12 col-md-12 col-lg-6  border shadow">
+                <form class="mt-5">
+                    <div class="container mt-5">
+                        <label for="nombres" class="form-label"> Nombres:</label>
+                        <input id="nombres" type="text" class="form-control" placeholder="Ingresa tus nombres">
+                        <div class="my-3">
+                            <label for="apellidos" class="form-label">Apellidos:</label>
+                            <input id="apellidos" type="text" class="form-control" placeholder="Ingresa tus apellidos">
+                        </div>
+                        <div class="my-3">
+                            <label for="correo" class="form-label">Correo electronico:</label>
+                            <input id="correo" type="email" class="form-control" placeholder="Ingresa tu correo">
+                        </div>
+                        <div class="my-3">
+                            <label for="contraseña-registro" class="form-label">Contraseña:</label>
+                            <input id="contraseña-registro" type="password" class="form-control" placeholder="Ingresa tu contraseña">
+                        </div>
+                        <div class="my-3">
+                            <label for="contraseña2" class="form-label">Confirmar contraseña:</label>
+                            <input id="contraseña2" type="password" class="form-control" placeholder="Ingresa nuevamente la contraseña">
+                        </div>
+                        <div class="text-center my-1">
+                            <button class="btn btn-primary w-25 " type="submit"> Iniciar sesión</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- <div class="col-12 col-sm-12 col-md-12 col-lg-6 text-center text-lg-end">
+                <img src="registro.jpg" alt="" class="rounded pill">
+            </div> -->
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
